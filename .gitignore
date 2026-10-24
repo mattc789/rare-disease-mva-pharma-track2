@@ -1,0 +1,59 @@
+# Patient / gated challenge data
+../data/
+data/
+**/official_gated/
+*.vcf
+*.vcf.gz
+*.tbi
+*.bcf
+*.bam
+*.cram
+
+# Public/reference datasets are reconstructed or downloaded at runtime
+public_inputs/third_party/
+public_inputs/audit_only/
+
+# Runtime/generated/private outputs
+experiments/
+runs/
+work/
+env/
+audits/
+frozen/
+release/
+tools/
+state/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Local-only configuration (examples remain public)
+config/local_*.json
+!config/*.example.json
+**/local_case_binding.json
+**/case_private.json
+**/official_gated/**
+
+# Generated workstation status/checkpoints
+INSTALL_*_STATUS.json
+CURRENT_*.json
+PROJECT_STATUS.json
+SCIENTIFIC_*_STATUS.json
+
+# Secrets and API caches
+*.dpapi
+V30_API_BUDGET_LEDGER.json
+V30_API_CACHE/
+**/V30_API_BUDGET_LEDGER.json
+**/V30_API_CACHE/
+.env
+.env.*
+*api_key*
+*token*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

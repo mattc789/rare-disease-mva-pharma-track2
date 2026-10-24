@@ -1,0 +1,50 @@
+{
+  "schema": "V283_REGULATORY_SCHEMA_1",
+  "snapshot_date": "2026-10-10",
+  "development_only": true,
+  "sources_not_shipped": true,
+  "files": {
+    "ema_article57_20261010.xlsx": {
+      "url": "https://www.ema.europa.eu/en/documents/other/article-57-product-data_en.xlsx",
+      "bytes": 7870020,
+      "sha256": "cf00a7ca6baddb039b6c96158e189113b0bf6cc31d34c03f67e41e175a8a8c77",
+      "rights_note": "EMA legal notice attribution; no third-party licensed texts"
+    },
+    "ema_central_20261010.xlsx": {
+      "url": "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx",
+      "bytes": 902463,
+      "sha256": "c71c48d2f353c8f9b0cc808cde393ed65910ec0c508ee855b48593224ea0416e",
+      "rights_note": "EMA legal notice attribution"
+    },
+    "uk_mhra_cat1_20261010.xlsx": {
+      "url": "https://assets.publishing.service.gov.uk/media/69a591b9a56a5482312c7176/All_PL_listing_Category_1_For_publication__220226__2_.xlsx",
+      "bytes": 347856,
+      "sha256": "f0b596e6f7fe040b52b70b3af0f5f1df6823041bbd1afd6bef7e7deaa412309a",
+      "rights_note": "Open Government Licence UK v3.0"
+    },
+    "uk_mhra_cat2_20261010.xlsx": {
+      "url": "https://assets.publishing.service.gov.uk/media/69a591d5238e02a088ce17f9/All_PL_listing_Category_2_For_publication__220226.xlsx",
+      "bytes": 915451,
+      "sha256": "732c7a069e86bc26b6206d0417363c2154cb5fcf92f11160104d568517530a36",
+      "rights_note": "Open Government Licence UK v3.0"
+    },
+    "ca_approved_20261010.json": {
+      "url": "https://health-products.canada.ca/api/drug/drugproduct/?status=1&lang=en&type=json",
+      "bytes": 946667,
+      "sha256": "4abb4443a0005ce4c257bee80061af4d5c03aba0062fb8ad6ff26ef7cc8c46a9",
+      "rights_note": "Canada Open Government Licence (official portal); verify legacy DPD copyright before republishing extracts"
+    },
+    "ca_marketed_20261010.json": {
+      "url": "https://health-products.canada.ca/api/drug/drugproduct/?status=2&lang=en&type=json",
+      "bytes": 3392942,
+      "sha256": "b8046986fbea48cf231809d0b854f4e7fa239ce0071a591ef635fc8b7e86903f",
+      "rights_note": "Canada Open Government Licence (official portal); verify legacy DPD copyright before republishing extracts"
+    },
+    "ca_ingredients_20261010.json": {
+      "url": "https://health-products.canada.ca/api/drug/activeingredient/?lang=en&type=json",
+      "bytes": 16104560,
+      "sha256": "3176cd3da79a8f49d1a464af39580c38f9fa7b9af5f1c1de9805baf87870442e",
+      "rights_note": "Canada Open Government Licence (official portal); verify legacy DPD copyright before republishing extracts"
+    }
+  }
+}

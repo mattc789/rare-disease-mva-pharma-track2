@@ -1,0 +1,81 @@
+{
+  "version": "V28_PUBLIC_SNAPSHOT_2026-10-09",
+  "python": "3.12",
+  "strict_snapshot": true,
+  "static_files": [
+    {
+      "path": "fda/drugsatfda.zip",
+      "url": "https://www.fda.gov/media/89850/download?attachment",
+      "bytes": 6094247,
+      "sha256": "9eb50ecc586e608e79175fc2f446ac9117161e80de364f254a1f995a276fd88c"
+    },
+    {
+      "path": "fda/purplebook_2026-09.csv",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/PurpleBook/2026/purplebook-search-September-data-download.csv",
+      "bytes": 487303,
+      "sha256": "b9d04a8b1ea9c6605fdeff01127f0de32cb092534a40441b036e39c9665974e6"
+    },
+    {
+      "path": "signor/Oct2026_release.txt",
+      "url": "https://signor.uniroma2.it/releases/Oct2026_release.txt",
+      "bytes": 21425930,
+      "sha256": "63db6f65e9148e81354f564c3c3cdfc9ee45dc421553bd0926e5fae511ef9d06"
+    },
+    {
+      "path": "intake_v28/gencode.v50.annotation.gtf.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.annotation.gtf.gz",
+      "bytes": 124527720,
+      "sha256": "83fba3e9b03f0b8c958f3595c6c350adc55f468abf8b0e47b6d5284cfe13a453"
+    },
+    {
+      "path": "intake_v28/gencode.v50.pc_transcripts.fa.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.pc_transcripts.fa.gz",
+      "bytes": 129953566,
+      "sha256": "ed3bcd295a39e97f22a5f2b200d6c46c54ca95c3739b614c06ebde7575e316a1"
+    },
+    {
+      "path": "intake_v28/gencode.v50.metadata.RefSeq.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.metadata.RefSeq.gz",
+      "bytes": 1002322,
+      "sha256": "a82f562c420bcc01cce560cee2294a7ef2e5db91f1faef53c1d3fd82deca82d4"
+    },
+    {
+      "path": "intake_v28/genes_to_phenotype.txt",
+      "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-02/genes_to_phenotype.txt",
+      "bytes": 20821704,
+      "sha256": "507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c"
+    },
+    {
+      "path": "intake_v28/hp.obo",
+      "url": "https://github.com/obophenotype/human-phenotype-ontology/releases/download/v2026-09-02/hp.obo",
+      "bytes": 10863613,
+      "sha256": "93dace952fcb3ec4728818857f6ba76bc2d5312f4d83266519b8694b8e798f22"
+    },
+    {
+      "path": "intake_v28/clinvar.vcf.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz",
+      "bytes": 200145964,
+      "sha256": "4bff32d11c1757330d39b27605a6b2cbf0a81aa1213221f93988357064413581"
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "chembl/catalog_phase4.json",
+      "method": "chembl_max_phase4_api",
+      "bytes": 7426872,
+      "sha256": "a459ffe67ad115a5ee82c48a764a8ebfca739603586714214b644d96ef37b2b1"
+    },
+    {
+      "path": "chembl/mechanisms_records.json",
+      "method": "chembl_mechanism_api",
+      "bytes": 7159585,
+      "sha256": "0627a01f2a691513c7f92172f5d00e7b2568613c880e5c86634d26bb99eccbbf"
+    },
+    {
+      "path": "chembl/target_metadata_records.json",
+      "method": "chembl_targets_for_phase4_mechanisms",
+      "bytes": 31008688,
+      "sha256": "5a6d0354939718e7ac385e91fbfca11b99501d920c00752205745a209c055987"
+    }
+  ]
+}

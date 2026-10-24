@@ -1,0 +1,9 @@
+{
+  "schema": "V2810_LOCAL_PUBLIC_STORAGE_1",
+  "windows_root": "D:\\OpenResearchPublicReferences",
+  "expected_disk_name": null,
+  "reserve_free_gib": 100,
+  "require_external_usb": false,
+  "source_zip_include": false,
+  "note": "Copy this example to local_public_storage_v2810.json and adjust the drive. This local configuration is deliberately excluded from the public source ZIP."
+}

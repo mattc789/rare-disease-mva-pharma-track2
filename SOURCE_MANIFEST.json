@@ -1,0 +1,678 @@
+{
+  "alphamissense_default_profile_enabled": false,
+  "bundled_public_signor_official_gzip_sha256": "3a18ac07b37f790cb7853992b508650c65c005ecc116c018a183e64aff8feb16",
+  "contains_api_cache": false,
+  "contains_api_keys_or_secrets": false,
+  "contains_case_specific_research_outputs": false,
+  "contains_external_binaries_or_model_weights": false,
+  "contains_gated_challenge_data": false,
+  "contains_local_machine_configuration": false,
+  "contains_patient_raw_genome": false,
+  "contains_private_variant_records": false,
+  "contains_public_bulk_reference_database": true,
+  "contains_source_code_tests_docs_public_metadata_only": true,
+  "copyright": "Matteo Caprani | ExaMedix Technologies",
+  "deterministic_archive": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 383,
+      "sha256": "40fc1f83b7b6f5c45419a0a224f9efbc77ea93cbde102ad7b17d1d7814121b3c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 872,
+      "sha256": "3a2d7a05935cf9a402a4823f15a664bb9adde702a27387750802b8e7e5158d92"
+    },
+    {
+      "path": "CONFIGURE_STORAGE_V31.ps1",
+      "bytes": 5416,
+      "sha256": "27fc45a029f273f67384754e8a67dd78f5a54e7bff0d082606aaf22a30306af5"
+    },
+    {
+      "path": "INSTALL_WINDOWS_V31.ps1",
+      "bytes": 15646,
+      "sha256": "c9f02f1eba128563a449d815a2bd9ea4c2ba0ca21b052b2cb6d22bba5a7f5158"
+    },
+    {
+      "path": "JURY_CHECK_AI_V31.py",
+      "bytes": 5481,
+      "sha256": "bc5c0aff6b0f6dd7305bca7e3969165b6cd0f3f353777998e502879493730e2d"
+    },
+    {
+      "path": "JURY_MONITOR_V31.py",
+      "bytes": 6173,
+      "sha256": "c7aa82f13e1d780131acbbfe6dfb85d1c58b17bdecdbacf389cd7f37c99974df"
+    },
+    {
+      "path": "JURY_START_V31.cmd",
+      "bytes": 258,
+      "sha256": "3ea079d85b0764a7e8ce0a94acbb8cb50d4cd5436e0b9e0eb09542321525278a"
+    },
+    {
+      "path": "JURY_START_V31.ps1",
+      "bytes": 22807,
+      "sha256": "673f92966b326d4879412d805daaffa96df525ca5e78c3a6738b5cc84479be56"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "README.md",
+      "bytes": 36773,
+      "sha256": "5c63fbfd4d759ae762b174a4cd3b97c200b9464535ecd65853e0c79c7116a78d"
+    },
+    {
+      "path": "REPRODUCE_CHALLENGE_V31.ps1",
+      "bytes": 4378,
+      "sha256": "55c551ccbeb6da69c2fcbff8ddb1ee092d57a986ebe0fd0f39ca58c5a3ffd910"
+    },
+    {
+      "path": "SETUP_OPENAI_KEY_V31.ps1",
+      "bytes": 1839,
+      "sha256": "b934964def4d3765e5b0206dc97bb63f9d1efab8843f61ebe770147660261efc"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES_V31.md",
+      "bytes": 8836,
+      "sha256": "3c82a39e99c4930151a3168bb7200de5be64b502e3d3472e18c80dc9d79a8632"
+    },
+    {
+      "path": "bootstrap_current_public_v31.py",
+      "bytes": 24787,
+      "sha256": "0a697711edf7a5f8191cdf3c18d1617e10bae19b54fd7a15d76fb0546a9c1a40"
+    },
+    {
+      "path": "bootstrap_regulatory_v283.py",
+      "bytes": 2620,
+      "sha256": "964872612329a01882acc5eb521200dcca0046b985e6979a927026bd807ab045"
+    },
+    {
+      "path": "bootstrap_v28.py",
+      "bytes": 18441,
+      "sha256": "8e47c8d31dbee9058eb53ff2ea2751c3410b446fa31234f171656328c8ca8241"
+    },
+    {
+      "path": "build_source_release_v31.py",
+      "bytes": 9525,
+      "sha256": "2447b77016c438a0dff9303c9e5ce3162c84af8f3998d64d8c9969e6ad5b4f20"
+    },
+    {
+      "path": "code/test_v2810_autonomous.py",
+      "bytes": 14328,
+      "sha256": "2a425542fd8373cffb6544383e476db7c4ab73eab67fcb4c1bc6a9cad384a789"
+    },
+    {
+      "path": "code/test_v2810_bootstrap.py",
+      "bytes": 9074,
+      "sha256": "cfcfc4622c378f65a943cf5c8b256b592843e825eb74ad50a103367a9121443b"
+    },
+    {
+      "path": "code/test_v2810_clinvar.py",
+      "bytes": 3029,
+      "sha256": "8e9a19a5439c93f1cfd1c219be4b196ce229bd842cf1338eac2e145098727c11"
+    },
+    {
+      "path": "code/test_v2810_expert.py",
+      "bytes": 13472,
+      "sha256": "b97982e9b88d8821db27b5ad1930c02e2b335ffc5eb5a1c0e09cd038fc9d099d"
+    },
+    {
+      "path": "code/test_v2810_predictive.py",
+      "bytes": 12301,
+      "sha256": "9eede4e8e13d1c5e7398fb781ad4e60de84efda185e5e32025604f4e7f5398ee"
+    },
+    {
+      "path": "code/test_v2810_specialists.py",
+      "bytes": 15475,
+      "sha256": "7d1454f27c97c058ed7b8f4c4e64a1b82f7f007d0877a462cbbd6f5070a433dc"
+    },
+    {
+      "path": "code/test_v2810_storage.py",
+      "bytes": 4714,
+      "sha256": "2ac4d6f72690345d6b9181df5a30cac0dcd1bf895efa9edb3afa6cf62e65f1b3"
+    },
+    {
+      "path": "code/test_v30_engine.py",
+      "bytes": 51160,
+      "sha256": "5227da3528d9df406257d18c04f54579cdccf07155595e3ef19ebc4bfe67aff1"
+    },
+    {
+      "path": "code/test_v31_auto_storage.py",
+      "bytes": 3661,
+      "sha256": "b5a9d9c8ce0e04463a4f534c101be66dff592c5c7a9ae74e5e5ade30221c5a51"
+    },
+    {
+      "path": "code/test_v31_chembl_resilience.py",
+      "bytes": 14557,
+      "sha256": "a1e50f3ab3d8a940f08d60bdc3d80a8b7aeca4b4e3a66d292a6e8af48c1ebff1"
+    },
+    {
+      "path": "code/test_v31_chembl_sqlite.py",
+      "bytes": 11012,
+      "sha256": "3e08099c21974794cc09264cd62c8ce1d7b24ed07cd7ed1672821cdb7b873349"
+    },
+    {
+      "path": "code/test_v31_cleanroom_runner.py",
+      "bytes": 5389,
+      "sha256": "9778eb14021313be21ea5e4ca069d68afe1ad842cf53462c2226417fb70b2c0d"
+    },
+    {
+      "path": "code/test_v31_download_resilience.py",
+      "bytes": 4257,
+      "sha256": "959fdfde65839e0b4a963e0090b36d9c19d2334877c8d2a23daca5c5442f27d6"
+    },
+    {
+      "path": "code/test_v31_fasta_reuse.py",
+      "bytes": 5670,
+      "sha256": "cdb112c29542193e1dc1825cc9f5b67f3cd68ba7a2b1f422fc6991b515942049"
+    },
+    {
+      "path": "code/test_v31_fresh_jury_install.py",
+      "bytes": 7239,
+      "sha256": "78db5dee603db334a2c952cc8ae9ee366fbfd121baa824eb3572b01b33873812"
+    },
+    {
+      "path": "code/test_v31_interrupted_run_recovery.py",
+      "bytes": 5218,
+      "sha256": "ae24879111ef2937a97fd27a516a3b3c51907af35158bb0a9fdb1794cee9ebdb"
+    },
+    {
+      "path": "code/test_v31_isolation_progress.py",
+      "bytes": 5951,
+      "sha256": "9578b20b4215f467053b0baa13e642e66de136923954aad421329d652698548d"
+    },
+    {
+      "path": "code/test_v31_jury_ai.py",
+      "bytes": 3711,
+      "sha256": "b40775e19693d5a44ba723ba8be0f3525e1d740f4939364b0d0af918bec9e1f2"
+    },
+    {
+      "path": "code/test_v31_jury_input_auto.py",
+      "bytes": 3900,
+      "sha256": "cdbedcedc6ea4e4cc8c383a404a209b79d379acf1e60dc46e6e8329bedc9bc20"
+    },
+    {
+      "path": "code/test_v31_jury_launcher.py",
+      "bytes": 7840,
+      "sha256": "3777c378235f2155657a5125adc217dc3bd6bd98d3ecddd9fd93d818b432db63"
+    },
+    {
+      "path": "code/test_v31_large_resource_recovery.py",
+      "bytes": 3374,
+      "sha256": "1e5d6348b047463241d5f09c6fe16a728488a49750c0a5727004bfb3a8da79cd"
+    },
+    {
+      "path": "code/test_v31_live_public_data.py",
+      "bytes": 4479,
+      "sha256": "b96d7be9138c7c723522db5d0563c322ebb07a7668fa0593cacfa86656461f5f"
+    },
+    {
+      "path": "code/test_v31_live_universe_resume.py",
+      "bytes": 5356,
+      "sha256": "d56c61305b82199ac32854dc6fa0d085750a48dbea4201cdc51090183476b979"
+    },
+    {
+      "path": "code/test_v31_local_gnomad_manifest.py",
+      "bytes": 5045,
+      "sha256": "4889ae92c89d47ef2e044d640401387d3b92edafc99ae4151a67e387c54ebca2"
+    },
+    {
+      "path": "code/test_v31_powershell_reserved_vars.py",
+      "bytes": 3660,
+      "sha256": "7e7194ca1db6e13a6c20063c8e4fb1542b3a8b0fcb05b4fa2a887a839c0af3fe"
+    },
+    {
+      "path": "code/test_v31_required_genomic_evidence.py",
+      "bytes": 2443,
+      "sha256": "b2f8a187b9d83fea98ed6dfc7b09335faea4de395c66b2525546d5b14ffdcdf0"
+    },
+    {
+      "path": "code/test_v31_scientific_download.py",
+      "bytes": 6644,
+      "sha256": "74631b58ba61940d61bf99041db6157610f349546165aa9be101f56d849fb3db"
+    },
+    {
+      "path": "code/test_v31_signor_official_fallback.py",
+      "bytes": 6041,
+      "sha256": "38298c526bbdadb268a0657fd9e4bcc939bca8a89ab4dd3d37ea3a5cdc63943f"
+    },
+    {
+      "path": "code/v2810/__init__.py",
+      "bytes": 173,
+      "sha256": "b8065a89e5619db7519542059949333361180c4f6570dd49a891f141cd4819a1"
+    },
+    {
+      "path": "code/v2810/ai.py",
+      "bytes": 31301,
+      "sha256": "8b728f381e9ed7e5a1d8f85f37de8b0f9ccac1bd836d08a467f656225a95e2ff"
+    },
+    {
+      "path": "code/v2810/case_science.py",
+      "bytes": 10411,
+      "sha256": "bf09e06b2c3fc2d581253dbd46c6ed49807c51755c29cb13d9e443871caf038e"
+    },
+    {
+      "path": "code/v2810/chembl_sqlite_download_v31.py",
+      "bytes": 14358,
+      "sha256": "c59dd7e862f54d14e637c78a36b929fea30424690c181adb0e54e07dafed259b"
+    },
+    {
+      "path": "code/v2810/chembl_sqlite_v31.py",
+      "bytes": 12816,
+      "sha256": "65d99a54d2458e589089daa0695500f1bbe12ca95ff28425dfadcc54dbc0e14c"
+    },
+    {
+      "path": "code/v2810/core.py",
+      "bytes": 6402,
+      "sha256": "f681156f858dbd8cfc4fdd4c6fa7311602c362a69c4c8fb609ad538f2c857014"
+    },
+    {
+      "path": "code/v2810/deep.py",
+      "bytes": 20273,
+      "sha256": "987d092c51085ec71341e51d364e015bf114bfa747d13511399a966fe2ca60c7"
+    },
+    {
+      "path": "code/v2810/download_resilience_v31.py",
+      "bytes": 7113,
+      "sha256": "450099429556f3b1ff312094ca0a00b1d0b16840533767ee3051aeacfe1d416a"
+    },
+    {
+      "path": "code/v2810/evidence.py",
+      "bytes": 8087,
+      "sha256": "d7b99edc0120e471ccb9f426060483a00caca6e5ddd866bcf1264aa95742c358"
+    },
+    {
+      "path": "code/v2810/expert_genomics.py",
+      "bytes": 9471,
+      "sha256": "817c5306190af24bbf564dcb5902f515a63fae5144d4a02bd41022233a12a5ba"
+    },
+    {
+      "path": "code/v2810/expert_protein.py",
+      "bytes": 4336,
+      "sha256": "d7ebbed357d97903d5288e0bf7c58a1b11a8b1a6693f46a2c7d05742f2b8fedb"
+    },
+    {
+      "path": "code/v2810/expert_triage.py",
+      "bytes": 19210,
+      "sha256": "9a9f0455c8d3ee01ca40f4f03add377c7708c0f6542c606715785a7952fd5442"
+    },
+    {
+      "path": "code/v2810/externals/install_pangolin_gpl_wsl.sh",
+      "bytes": 766,
+      "sha256": "b373808639ec8252f9d986f7b6ece3e4eba879eb38a9b58cf3d09da750949370"
+    },
+    {
+      "path": "code/v2810/externals/patch_pangolin_pyvcf3.py",
+      "bytes": 1343,
+      "sha256": "51145ac79bfffc60449c3fca9b258ea8a39e4ecb47a48bc23310db2d4e9c2998"
+    },
+    {
+      "path": "code/v2810/gnomad_local.py",
+      "bytes": 8859,
+      "sha256": "84a3c5d0c9bccb37cda6d330d98c5cd69a89c18809939cb51b26c31d895be8e2"
+    },
+    {
+      "path": "code/v2810/health_canada_bulk_v31.py",
+      "bytes": 8391,
+      "sha256": "c9937807508eb8566e8b076dc10b014aee04a01e88abcef9c99e6b2eb1a5d2b4"
+    },
+    {
+      "path": "code/v2810/intake.py",
+      "bytes": 29780,
+      "sha256": "fb7a69007a3ec98f1b4bf0a8de46179798c544bf2c7ed437eee2a5a49c586f61"
+    },
+    {
+      "path": "code/v2810/master.py",
+      "bytes": 10563,
+      "sha256": "8c57c9c962683b983d9a407ee414e9aa8c108bbe9a935eb920d52013f5ad4a21"
+    },
+    {
+      "path": "code/v2810/open_splicing.py",
+      "bytes": 13947,
+      "sha256": "45577ba4114a2693fc527bd4e5afaafb6d71fbdebc3361196ac970e6baf9172d"
+    },
+    {
+      "path": "code/v2810/pipeline.py",
+      "bytes": 31423,
+      "sha256": "7eedce67f5928d6dcc763f0b6fce08eac8a9170fd8bb76c396d974f79d5296ae"
+    },
+    {
+      "path": "code/v2810/pksim_bridge.py",
+      "bytes": 5000,
+      "sha256": "6b3fd49c14266371925321e43573fb0cc1cdb2aaf5dddb0e94b941a4f0cb5ddc"
+    },
+    {
+      "path": "code/v2810/predictive.py",
+      "bytes": 40502,
+      "sha256": "dd9efb8c6d8703a03e03c2ee67fe05b4c4a24e90b92628f73e3206ff67b08aac"
+    },
+    {
+      "path": "code/v2810/quant_pk.py",
+      "bytes": 10175,
+      "sha256": "fdf7883d0245942841b9fd9bcd10a6aa37a22768d923722b3a475968ef19cdc9"
+    },
+    {
+      "path": "code/v2810/recover.py",
+      "bytes": 2830,
+      "sha256": "2d1ededab0ca28d4838a8012af84972ce84c4b3df7e55117d78629fa2a8982c3"
+    },
+    {
+      "path": "code/v2810/registry_output.py",
+      "bytes": 5863,
+      "sha256": "5a2e9329e801f334c5ad0e8702c5ccafe0bc89eb4c9d6207707f5fb00682e3da"
+    },
+    {
+      "path": "code/v2810/regulatory.py",
+      "bytes": 8416,
+      "sha256": "4c92a5744ce6358d9346b94c0f806c9641f16156b007e4a209c23bc61777c774"
+    },
+    {
+      "path": "code/v2810/reporting.py",
+      "bytes": 9001,
+      "sha256": "e1e441566cb252e614062b246abbf302f6789ee4c1af34c32d79d90d0523b110"
+    },
+    {
+      "path": "code/v2810/resource_bootstrap.py",
+      "bytes": 47559,
+      "sha256": "e396abf25f45d29da41aa0233dcd8dbba0402449bbe8a7f8df5cb4bf4acb9e33"
+    },
+    {
+      "path": "code/v2810/routes.py",
+      "bytes": 11323,
+      "sha256": "054a7d94802dbe91ab3d944c1ebb36f13488b57e6bbcf120294e1c16266bfa13"
+    },
+    {
+      "path": "code/v2810/science.py",
+      "bytes": 16147,
+      "sha256": "474eec0b993b3b042c1c66678fb0259b089099082cc207a217161facef800e74"
+    },
+    {
+      "path": "code/v2810/scientific_download_v31.py",
+      "bytes": 16077,
+      "sha256": "b05a13da47a55134863c53207c6eff00a8d692a307d9042fe7cb24a79731af0d"
+    },
+    {
+      "path": "code/v2810/screen.py",
+      "bytes": 17185,
+      "sha256": "4ae3303fcd2342f3a2990058a0683d5a28a7b07d18026c28a26d6440ef260852"
+    },
+    {
+      "path": "code/v2810/specialist_evidence.py",
+      "bytes": 7446,
+      "sha256": "5c5bf818a9de9fb0c9d9735c68c35f4073787dffd255dacd84e8a815471d85b0"
+    },
+    {
+      "path": "code/v2810/spliceai_local.py",
+      "bytes": 6564,
+      "sha256": "d7b95dc3c600322d814195286bd9e40b2e4f06e6a63a46acf55eb9d2006f5067"
+    },
+    {
+      "path": "code/v2810/vep_local.py",
+      "bytes": 10072,
+      "sha256": "44b42d04e4e4738b7dcd677cc4ed7f0b934fb85a0f7105ea55e50758e831f5b2"
+    },
+    {
+      "path": "code/v30/__init__.py",
+      "bytes": 278,
+      "sha256": "af235ead2369d24a4a8d95db4b81259467777ba394b8c709d431a9e7a056c1da"
+    },
+    {
+      "path": "code/v30/api_budget.py",
+      "bytes": 2732,
+      "sha256": "e256175133ab83bf29e5c265725e65b60234e2abcd54b3e998db46941a5bce30"
+    },
+    {
+      "path": "code/v30/candidate_graph.py",
+      "bytes": 10265,
+      "sha256": "526a67b83dda9fc8a4a2867697345f03cea136b19edb4c286bac3cbe4e569e86"
+    },
+    {
+      "path": "code/v30/challenge_dossier.py",
+      "bytes": 10490,
+      "sha256": "aad4377873c344aaca38f363a36df48a5b04e13a7c60a06754daf8620b1bbffe"
+    },
+    {
+      "path": "code/v30/challenge_hypotheses.py",
+      "bytes": 18335,
+      "sha256": "ebd906d8e429eff9ffa0fa605c6b99b632a51d0bffe009e4c0453a0ef620ef93"
+    },
+    {
+      "path": "code/v30/combination_engine.py",
+      "bytes": 7009,
+      "sha256": "2526f72232cd1516ccaa7cc1e931deb950d556c9cf6fe6949bae06cda30ca32b"
+    },
+    {
+      "path": "code/v30/cross_source_bridge.py",
+      "bytes": 28672,
+      "sha256": "b82fe94b1844fd6c7ab46ee4ecd70b36c0bd05532365c90bde31ff5efda8a42f"
+    },
+    {
+      "path": "code/v30/dgidb_discovery.py",
+      "bytes": 8889,
+      "sha256": "0d99e9972c054e9e2c848a207f4cc7a493dedf492d317ea2ef471af80496039c"
+    },
+    {
+      "path": "code/v30/direct_drug_rescue.py",
+      "bytes": 23316,
+      "sha256": "6929af567034304f26f51cb1afb6d03701dff799b83471ae936489f9affd19f4"
+    },
+    {
+      "path": "code/v30/disease_state_graph.py",
+      "bytes": 5113,
+      "sha256": "1972c9904515f91cd066ec0973b190c36a796d7cb42365280543a03fc81ab7d3"
+    },
+    {
+      "path": "code/v30/dossier.py",
+      "bytes": 3759,
+      "sha256": "1e772146bd66bd369d963ec147dbb255afbb4a946d08d9d318433e5bcb009a22"
+    },
+    {
+      "path": "code/v30/evidence_ranker.py",
+      "bytes": 5378,
+      "sha256": "034a9bb52deb58d7407c6c6b3504c2cb465528bab3baaeeb7c91009dc74d0ae5"
+    },
+    {
+      "path": "code/v30/exposure_feasibility.py",
+      "bytes": 21914,
+      "sha256": "7c3f3d26f4e145614feb9e6cf40201b17df36348f28a82a1394551a9f2c8850c"
+    },
+    {
+      "path": "code/v30/falsification.py",
+      "bytes": 5869,
+      "sha256": "54f43ac42dcb2adf6d77fdca1adf206f8e5396e59d99199db089671b99d4419f"
+    },
+    {
+      "path": "code/v30/fast_screen.py",
+      "bytes": 12535,
+      "sha256": "36b6156938d9e0d56616fc3b797ff39b8b9b3af4bde622dfca6bcff0990054f1"
+    },
+    {
+      "path": "code/v30/license_gate.py",
+      "bytes": 1514,
+      "sha256": "ca8b35b1727d8b3aee6afd037f697ed7fc33a42e5028942ad22b9d02bb247322"
+    },
+    {
+      "path": "code/v30/literature_attack.py",
+      "bytes": 21551,
+      "sha256": "d4c75a505c38f443a87944fc212b21f1eb9b2debe98952dcfef2732ac9abab88"
+    },
+    {
+      "path": "code/v30/mechanism_engine.py",
+      "bytes": 3753,
+      "sha256": "46f9c0baf5dfc06f10cc4936b1c1bd12bcd3124a5ef616c3bf675773f3628474"
+    },
+    {
+      "path": "code/v30/modifier_discovery.py",
+      "bytes": 20470,
+      "sha256": "baa07126d825a986692cafe256268656b2661e8c396ea8d5c60183cc4eb7c7f0"
+    },
+    {
+      "path": "code/v30/native_pipeline.py",
+      "bytes": 65999,
+      "sha256": "d2b0e386795bd51de47dd95b773b9221065c460ce9afebcb791097bb07adaa46"
+    },
+    {
+      "path": "code/v30/native_routes.py",
+      "bytes": 15257,
+      "sha256": "c5fa4dca14c86baba89e00a5bbbeade072738fcc27ab14a3652de30c03e7b427"
+    },
+    {
+      "path": "code/v30/network_expansion.py",
+      "bytes": 6661,
+      "sha256": "d9f8f7d0d78793ab4463379aefbfdcc378b42c0f97455c0e931373b84830335f"
+    },
+    {
+      "path": "code/v30/openai_reasoner.py",
+      "bytes": 9665,
+      "sha256": "feffc49d5fef405bcc89e80f186419da5b331a9c612c9bb978f13516c734c783"
+    },
+    {
+      "path": "code/v30/patient_state.py",
+      "bytes": 4815,
+      "sha256": "89bd9232cd0129bd1e4b902fab03dc8f71c88a3707c00c42e2fc555ba2c1a0f2"
+    },
+    {
+      "path": "code/v30/pipeline.py",
+      "bytes": 13400,
+      "sha256": "e7af032050ae14457af475fe045a70765d404c5c538ce9d10d0d8c85d20a98c1"
+    },
+    {
+      "path": "code/v30/polypharmacology.py",
+      "bytes": 5765,
+      "sha256": "1b191a285335abb1007602563f946af8944e082d34b39e6c2098547a2cb6bfc9"
+    },
+    {
+      "path": "code/v30/public_enrichment.py",
+      "bytes": 7314,
+      "sha256": "d952eaafad70dcf680a1c67a3dc9f7cc19cf08c1856d79d3c943a11f02641c1f"
+    },
+    {
+      "path": "code/v30/rescue_objectives.py",
+      "bytes": 5358,
+      "sha256": "dcccd9ea93775b378c9948317483317faebbced5e4f33358cc2be34f1d0806f9"
+    },
+    {
+      "path": "code/v30/rights_audit.py",
+      "bytes": 5914,
+      "sha256": "3287853d8e550365649cb18af73cd53cad2a873968ed24a003c096d23194913d"
+    },
+    {
+      "path": "code/v30/safety_review.py",
+      "bytes": 4229,
+      "sha256": "e9a260515c7b327cacc11a3330b3a02cd751283b60d7eff680c5f5d9e4a5e757"
+    },
+    {
+      "path": "code/v30/signed_network_expansion.py",
+      "bytes": 6795,
+      "sha256": "a7f066de1300eef59504a16601b8ea950d666044c92dbcf1417a363bf1be143b"
+    },
+    {
+      "path": "code/v30/variant_structure.py",
+      "bytes": 12659,
+      "sha256": "1342ffdd3ebbfe0922443cc8adeb162977fc6e3552d2a42ee3920e7ad762769f"
+    },
+    {
+      "path": "config/curated_human_pk_v286.example.json",
+      "bytes": 53,
+      "sha256": "76c6441127ae9d6041cc42f9ee13a4681bc9ae4e6c9528d0c4a43f5f3395a0e8"
+    },
+    {
+      "path": "config/curated_population_af_v288.example.json",
+      "bytes": 600,
+      "sha256": "8eeaf0af469ede7a597e15e934d1644ccf7bc2477cb4331b39a6c2c2870fa625"
+    },
+    {
+      "path": "config/local_public_storage_v2810.example.json",
+      "bytes": 388,
+      "sha256": "4b79bdef442bd99ca815f4a0ec046a4505c70724f86b09ce133a7a9833fc6ac4"
+    },
+    {
+      "path": "config/openai_v30.json",
+      "bytes": 1226,
+      "sha256": "e042b4371d064ab7533d4b93cbe64ab3a8444f4216c03d20c2d2851aec4b9193"
+    },
+    {
+      "path": "config/public_data_manifest_v28.json",
+      "bytes": 3243,
+      "sha256": "3b88de2f93640c8711995c79d88e6cae439803eb9f4c1fcc92083146cf3ac06a"
+    },
+    {
+      "path": "config/regulatory_snapshot_v283.json",
+      "bytes": 2621,
+      "sha256": "2c9183e33471ab39d0c0e6235f4703d7fafb1014595d3badc3e857ac6ab99760"
+    },
+    {
+      "path": "config/source_registry.json",
+      "bytes": 16346,
+      "sha256": "70a783f3255aa7f033fb9d958b728bd87e44593a501ff0460488be64e486a4dd"
+    },
+    {
+      "path": "config/v30_source_policy.json",
+      "bytes": 5850,
+      "sha256": "2efb80885475ea86e3a4d1ed05de35fc83aa5b9fe29018e829d8948c4509e457"
+    },
+    {
+      "path": "config/v31_curated_quantitative_evidence.json",
+      "bytes": 1756,
+      "sha256": "2c249c6fc82487a8e819511e436f41ed69fc3c4f4ff0c8e18323efcae704d276"
+    },
+    {
+      "path": "reference_seed/signor/ATTRIBUTION.md",
+      "bytes": 1756,
+      "sha256": "df1f595c79c062371e0f3ac7c65bc7c372a94d57d34f725995d7f3a65d6256ec"
+    },
+    {
+      "path": "reference_seed/signor/Oct2026_release.txt.gz",
+      "bytes": 6722506,
+      "sha256": "3a18ac07b37f790cb7853992b508650c65c005ecc116c018a183e64aff8feb16"
+    },
+    {
+      "path": "reproduce_v31_pipeline.py",
+      "bytes": 20958,
+      "sha256": "4905167e74491cedc24d8cf8b1f21228a70aeee2f8e3406f19b0ee91abcb0450"
+    },
+    {
+      "path": "requirements-v2810.txt",
+      "bytes": 445,
+      "sha256": "5fd5ab0a7f37c04c96fead3e9dc8277c1edc38f59cf86b1ec7fc42bff379d012"
+    },
+    {
+      "path": "run_v31.ps1",
+      "bytes": 735,
+      "sha256": "a65f7f91ec94fbe21452bde2746fa09975546ca9e3869615c17b8c77e34f44b4"
+    },
+    {
+      "path": "setup_v2810.py",
+      "bytes": 8826,
+      "sha256": "4baf835d73923ed7725285fa54f0184958d3c45a1ad5d1f0054aafb978bc9729"
+    },
+    {
+      "path": "submission/VIDEO_PITCH.md",
+      "bytes": 2620,
+      "sha256": "84ea8f093ecff49a1bfdb9d99d36547cfb9a1deb866e378da1498abea6138cbe"
+    },
+    {
+      "path": "submission/examedix-technologies_track2_report.md",
+      "bytes": 99875,
+      "sha256": "da5ac9057a3cc64f707cfcc0423cabf1347037a11cfdc7a8b9cc589cd066f14d"
+    },
+    {
+      "path": "submission/examedix-technologies_track2_report.pdf",
+      "bytes": 638284,
+      "sha256": "7178f6403ffac36af511a4e216f0ef0ee51712753691ce62f1d17fb47e12c501"
+    },
+    {
+      "path": "verify_challenge_run_v31.py",
+      "bytes": 9188,
+      "sha256": "299bbb8ee60c029d31b252a0547c68396557ab08058da9e00ccf49220c37b451"
+    }
+  ],
+  "only_public_bulk_dataset": "SIGNOR_4.0_Oct2026_6.72MB_gzip_CC_BY_4.0",
+  "original_application_license": "CC-BY-4.0",
+  "schema": "RDMVA_V31_SOURCE_ONLY_MANIFEST_1",
+  "third_party_terms_preserved": true,
+  "version": "3.1.5"
+}

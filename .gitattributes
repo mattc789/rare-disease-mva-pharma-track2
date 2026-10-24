@@ -1,0 +1,13 @@
+# Keep repository bytes stable across Windows/Linux clones so SOURCE_MANIFEST hashes remain reproducible.
+* text=auto eol=lf
+
+# Treat common archives/binaries as binary if ever added outside the source-only release.
+*.zip binary
+*.gz binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+
+# Preserve Windows batch CRLF exactly in GitHub Download ZIP archives.
+*.cmd -text -eol

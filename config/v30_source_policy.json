@@ -1,0 +1,105 @@
+{
+  "schema": "RDMVA_V30_SOURCE_POLICY_1",
+  "version": "2026-10-11-v31-audit",
+  "owner_code_license": "CC-BY-4.0",
+  "principle": "Third-party software/data keep their own licences. The public source release contains only our code/config/docs; large third-party datasets are fetched at runtime or supplied externally. Aggregator claims are never promoted without source-level provenance.",
+  "sources": {
+    "OpenAI_API": {
+      "class": "GREEN_SERVICE",
+      "enabled_by_default": false,
+      "license_or_terms": "External API service; no API key or service code redistributed.",
+      "commercial_use": "service-plan dependent",
+      "redistribution_strategy": "BYO API key only; store=false; sanitized research envelope; no raw VCF/genotypes/patient identifiers."
+    },
+    "Open_Targets": {
+      "class": "GREEN",
+      "enabled_by_default": true,
+      "license_or_terms": "Platform marked CC0 1.0; code is open-source under repository-specific licences.",
+      "commercial_use": true,
+      "redistribution_strategy": "Prefer runtime API/download with provenance. Do not silently relicense embedded upstream evidence."
+    },
+    "Reactome": {
+      "class": "GREEN",
+      "enabled_by_default": true,
+      "license_or_terms": "Database data and derived data files CC0; most software Apache-2.0; illustrations/branding CC BY 4.0; some code may have dependency-specific copyleft.",
+      "commercial_use": true,
+      "redistribution_strategy": "Use pathway/interaction data through runtime API or official downloads; preserve provenance."
+    },
+    "Ensembl_VEP": {
+      "class": "GREEN_EXTERNAL",
+      "enabled_by_default": true,
+      "license_or_terms": "Apache-2.0",
+      "commercial_use": true,
+      "redistribution_strategy": "External tool installed separately from official upstream."
+    },
+    "AlphaFold_DB": {
+      "class": "GREEN_ATTRIBUTION",
+      "enabled_by_default": true,
+      "license_or_terms": "AlphaFold DB prediction data CC BY 4.0; academic and commercial use explicitly permitted by AFDB. AF2 code Apache-2.0; model parameters CC BY 4.0.",
+      "commercial_use": true,
+      "clinical_use_validated": false,
+      "third_party_rights_disclaimer": true,
+      "redistribution_strategy": "Runtime retrieval of selected structure/PAE files only. Preserve AFDB/DeepMind/EMBL-EBI attribution, source URL, accession and retrieval date. Do not claim clinical validation or warranty; do not bundle unrelated mirrored databases."
+    },
+    "AlphaMissense": {
+      "class": "YELLOW_LICENSE_CONFLICT",
+      "enabled_by_default": false,
+      "license_or_terms": "CONFLICT: current DeepMind/Ensembl/AlphaFold DB documentation states CC BY 4.0, but the actual official AlphaMissense_hg38.tsv.gz file header states CC BY-NC-SA 4.0 and an EMBL-EBI 2023 page also describes non-commercial terms.",
+      "commercial_use": false,
+      "clinical_use_validated": false,
+      "redistribution_strategy": "Implemented as an optional external research adapter only. Disabled in Challenge/public/commercial baseline. Do not download, redistribute, embed scores, or use for a submission artifact until rights-holder clarification resolves the conflicting official notices."
+    },
+    "DGIdb": {
+      "class": "YELLOW_DISCOVERY_INDEX",
+      "enabled_by_default": true,
+      "license_or_terms": "DGIdb v5 software MIT. DGIdb aggregates claims from many upstream knowledgebases/publications with source-specific terms.",
+      "commercial_use": "software yes; individual aggregated claims depend on upstream source",
+      "redistribution_strategy": "Use DGIdb only as a discovery/index channel. Persist source names/PMIDs. A DGIdb-only interaction cannot become submission evidence until verified in a primary/public source whose reuse terms are compatible."
+    },
+    "ClinVar": {
+      "class": "GREEN_RUNTIME",
+      "enabled_by_default": true,
+      "license_or_terms": "NCBI public resource; source assertions remain third-party submissions.",
+      "redistribution_strategy": "Official download/runtime use with provenance; do not present assertions as independently validated."
+    },
+    "ChEMBL": {
+      "class": "YELLOW_SHAREALIKE_DATA",
+      "enabled_by_default": true,
+      "license_or_terms": "ChEMBL data CC BY-SA 3.0",
+      "commercial_use": true,
+      "redistribution_strategy": "Download separately and retain ChEMBL provenance/share-alike obligations. Do not relicense or bundle an adapted ChEMBL database inside the CC-BY source archive."
+    },
+    "gnomAD": {
+      "class": "YELLOW_POLICY",
+      "enabled_by_default": true,
+      "redistribution_strategy": "Official runtime download; no bulk database redistribution in source release."
+    },
+    "HPO": {
+      "class": "YELLOW_ATTRIBUTION",
+      "enabled_by_default": true,
+      "redistribution_strategy": "Official runtime download; preserve attribution/version and source-file integrity."
+    },
+    "Pangolin": {
+      "class": "YELLOW_GPL_EXTERNAL",
+      "enabled_by_default": true,
+      "license_or_terms": "GPL-3.0",
+      "redistribution_strategy": "Independent external process; do not relicense as CC-BY."
+    },
+    "PK-Sim": {
+      "class": "YELLOW_GPL_EXTERNAL",
+      "enabled_by_default": false,
+      "license_or_terms": "GPL-2.0",
+      "redistribution_strategy": "Independent external program/adapter; model inputs need their own provenance."
+    },
+    "Illumina_SpliceAI": {
+      "class": "RED",
+      "enabled_by_default": false,
+      "redistribution_strategy": "Excluded from free/open baseline because upstream software/model terms do not match the required profile."
+    },
+    "Enrichr_LINCS_GEO": {
+      "class": "RED",
+      "enabled_by_default": false,
+      "redistribution_strategy": "Excluded from default V3 profile until source-specific use and redistribution rights are qualified."
+    }
+  }
+}

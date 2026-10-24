@@ -1,0 +1,43 @@
+{
+  "schema": "RDMVA_CURATED_QUANTITATIVE_EVIDENCE_V31_1",
+  "principle": "Stores source-cited numerical experimental facts only; no copyrighted source passages.",
+  "records": {
+    "CEFTRIAXONE|AURKB": {
+      "candidate": "CEFTRIAXONE",
+      "target": "AURKB",
+      "source": {
+        "pmid": "22962305",
+        "pmcid": "PMC3510736",
+        "title": "Ceftriaxone, an FDA-approved cephalosporin antibiotic, suppresses lung cancer growth by targeting Aurora B."
+      },
+      "records": [
+        {
+          "value": 100.0,
+          "unit": "uM",
+          "assay_context": "BIOCHEMICAL_TARGET_ACTIVITY",
+          "target_action": "decrease",
+          "effect_fraction_of_control": 0.45,
+          "effect_description": "Aurora B kinase-panel activity was approximately 45% of control at the tested ceftriaxone concentration.",
+          "explicit_numeric_in_source": true
+        },
+        {
+          "value": 500.0,
+          "unit": "uM",
+          "assay_context": "CELLULAR_PHENOTYPE",
+          "target_action": "decrease",
+          "effect_fraction_of_control": null,
+          "effect_description": "A high-concentration cellular phenotype was reported in lung-cancer cell experiments.",
+          "explicit_numeric_in_source": true
+        }
+      ],
+      "lowest_direct_target_concentration_uM": 100.0,
+      "highest_cellular_effect_concentration_uM": 500.0,
+      "limitations": [
+        "The 100 uM result is a single-concentration kinase-panel observation, not an IC50.",
+        "The 500 uM cellular result is substantially higher than the biochemical test concentration.",
+        "These data do not establish efficacy in MVA or in the patient's genotype."
+      ],
+      "raw_source_text_redistributed": false
+    }
+  }
+}

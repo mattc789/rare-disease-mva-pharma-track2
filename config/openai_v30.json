@@ -1,0 +1,32 @@
+{
+  "schema": "RDMVA_OPENAI_V30_1",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "default_model": "gpt-6.1-sol",
+  "critic_model": "gpt-6.1-sol",
+  "literature_extraction_model": "gpt-6-luna",
+  "environment_model_override": "RDMVA_OPENAI_MODEL",
+  "environment_literature_model_override": "RDMVA_OPENAI_LITERATURE_MODEL",
+  "api_key_environment_variable": "OPENAI_API_KEY",
+  "store": false,
+  "max_output_tokens": 4500,
+  "default_run_budget_usd": 3.0,
+  "budget_environment_override": "RDMVA_OPENAI_BUDGET_USD",
+  "model_pricing_usd_per_million": {
+    "gpt-6.1-sol": {"input": 2.0, "output": 10.0},
+    "gpt-6-luna": {"input": 0.1, "output": 0.5}
+  },
+  "purpose": "Sanitized mechanistic research critique and source-bound public-literature extraction only; never treatment advice.",
+  "privacy_contract": {
+    "allow_gene_symbols": true,
+    "allow_candidate_drug_names": true,
+    "allow_abstract_mechanism_classes": true,
+    "allow_evidence_tiers": true,
+    "allow_public_source_summaries": true,
+    "forbid_raw_variant_coordinates": true,
+    "forbid_hgvs": true,
+    "forbid_genotypes": true,
+    "forbid_patient_identifiers": true,
+    "forbid_full_hpo_profile": true,
+    "forbid_raw_vcf": true
+  }
+}

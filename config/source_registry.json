@@ -1,0 +1,247 @@
+{
+    "CLUE":  {
+                 "automatic_export":  false,
+                 "external_api":  false,
+                 "licence":  "Restricted service terms",
+                 "local_analysis":  false,
+                 "review_is_legal_guarantee":  false,
+                 "review_status":  "reviewed_for_declared_scope",
+                 "reviewed_on":  "2026-10-07",
+                 "scope":  "No assumption of free commercial service/data. Neither login nor special licence requested.",
+                 "terms_evidence":  [
+                                        {
+                                            "file":  "public_inputs/terms/clue_terms.html",
+                                            "sha256":  "7e741fa137c82550c0afcb8f4af223e16151ce4fa66ddbe1ed3f8675546a4b5d",
+                                            "url":  "https://clue.io/terms"
+                                        }
+                                    ],
+                 "training":  false
+             },
+    "ChEMBL":  {
+                   "automatic_export":  false,
+                   "external_api":  false,
+                   "licence":  "CC-BY-SA-3.0",
+                   "local_analysis":  true,
+                   "review_is_legal_guarantee":  false,
+                   "review_status":  "reviewed_for_declared_scope",
+                   "reviewed_on":  "2026-10-07",
+                   "scope":  "Local catalogue/mechanism analysis permitted. Attribution and ShareAlike retained on adapted datasets; no relicensing of a derived database to plain CC BY. Submission export held pending compatibility review or permitted source replacement.",
+                   "terms_evidence":  [
+                                          {
+                                              "file":  "public_inputs/terms/chembl_terms.txt",
+                                              "sha256":  "4203878e9d8666e13593d60289db679321642aa76a9cd21a22fdc22e5fc6b7e2",
+                                              "url":  "https://chembl.gitbook.io/chembl-interface-documentation/about.md"
+                                          },
+                                          {
+                                              "file":  "public_inputs/terms/cc_by_sa_3_legal.txt",
+                                              "sha256":  "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f",
+                                              "url":  "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt"
+                                          },
+                                          {
+                                              "file":  "public_inputs/terms/ebi_terms.html",
+                                              "sha256":  "f3c148e6b91501af2a516e24edf0be61c21e2ce1b4e9f40bd834c606f1f23ae9",
+                                              "url":  "https://www.ebi.ac.uk/about/terms-of-use/"
+                                          }
+                                      ],
+                   "training":  false
+               },
+    "Challenge_patient":  {
+                              "automatic_export":  false,
+                              "external_api":  false,
+                              "licence":  "Gated challenge rules",
+                              "local_analysis":  true,
+                              "review_is_legal_guarantee":  false,
+                              "review_status":  "reviewed_for_declared_scope",
+                              "reviewed_on":  "2026-10-12",
+                              "scope":  "Authorized gated Challenge patient data may be analyzed locally under the Hackathon rules. Raw VCF/clinical documents, genomic coordinates, HGVS, genotypes, patient identifiers and private variant records are never redistributed and are excluded from OpenAI API payloads; only explicitly sanitized biological abstractions may enter the opt-in online-AI profile.",
+                              "terms_evidence":  [
+                                                     {
+                                                         "file":  "public_inputs/terms/challenge_rules.txt",
+                                                         "sha256":  "0031b61f710ce5bcc686a88e4fcd470b165f25ed103f970827b6ebfed097ab12",
+                                                         "url":  "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/rules.py"
+                                                     }
+                                                 ],
+                              "training":  false
+                          },
+    "DrugBank":  {
+                     "automatic_export":  false,
+                     "external_api":  false,
+                     "licence":  "Commercial licence not obtained",
+                     "local_analysis":  false,
+                     "review_is_legal_guarantee":  false,
+                     "review_status":  "reviewed_for_declared_scope",
+                     "reviewed_on":  "2026-10-07",
+                     "scope":  "Not an input to R2.",
+                     "terms_evidence":  [
+                                            {
+                                                "file":  "public_inputs/terms/drugbank_terms.html",
+                                                "sha256":  "df9e7c21a06ab31dfabd5a9e5b68ea9ebbc26dc74ce5b68abd20e10418a916d5",
+                                                "url":  "https://trust.drugbank.com/drugbank-trust-center/drugbank-terms-of-service"
+                                            }
+                                        ],
+                     "training":  false
+                 },
+    "FDA":  {
+                "automatic_export":  false,
+                "external_api":  false,
+                "licence":  "Government factual data; third-party rights not transferred",
+                "local_analysis":  true,
+                "review_is_legal_guarantee":  false,
+                "review_status":  "reviewed_for_declared_scope",
+                "reviewed_on":  "2026-10-07",
+                "scope":  "Only public Drugs@FDA factual tables. No blanket licence over labels, art or manufacturer material. No ingredient-level approval inferred from combination approval.",
+                "terms_evidence":  [
+                                       {
+                                           "file":  "public_inputs/terms/fda_dataset.html",
+                                           "sha256":  "e6c17388c179deebe3f812e5b973e264cec8db30ac2b78ae8b32966e2946c0ed",
+                                           "url":  "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files"
+                                       }
+                                   ],
+                "training":  false
+            },
+    "GSE22206":  {
+                     "automatic_export":  false,
+                     "external_api":  false,
+                     "licence":  "NCBI molecular-data policy; no dataset-specific restriction identified",
+                     "local_analysis":  true,
+                     "review_is_legal_guarantee":  false,
+                     "review_status":  "reviewed_for_declared_scope",
+                     "reviewed_on":  "2026-10-07",
+                     "scope":  "Record is public; internal numeric QC/reanalysis only; no publication full text or array-probe sequences. NCBI imposes no additional restrictions but cannot convey third-party rights. No CC0 claim. Raw matrix/API/training/export disabled; further scientific use conditional on donor-design and annotation audit.",
+                     "terms_evidence":  [
+                                            {
+                                                "file":  "public_inputs/terms/ncbi_policy.html",
+                                                "sha256":  "8ad8f6f186ca51ec73a5fb8935ecfa17b8cbaad300b7025b381898ab72621869",
+                                                "url":  "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+                                            }
+                                        ],
+                     "training":  false
+                 },
+    "Literature_unreviewed":  {
+                                  "automatic_export":  false,
+                                  "external_api":  false,
+                                  "licence":  "Article-specific",
+                                  "local_analysis":  false,
+                                  "review_is_legal_guarantee":  false,
+                                  "review_status":  "reviewed_for_declared_scope",
+                                  "reviewed_on":  "2026-10-07",
+                                  "scope":  "Metadata discovery permitted separately; full text mining requires paper-specific rights and explicit admission. Abstract hosting is not unrestricted copyright permission.",
+                                  "terms_evidence":  [
+
+                                                     ],
+                                  "training":  false
+                              },
+    "OmniPath_mixed":  {
+                           "automatic_export":  false,
+                           "external_api":  false,
+                           "licence":  "Source-specific",
+                           "local_analysis":  false,
+                           "review_is_legal_guarantee":  false,
+                           "review_status":  "reviewed_for_declared_scope",
+                           "reviewed_on":  "2026-10-07",
+                           "scope":  "Resource metadata audited only. Mixed networks not approved merely because license=commercial. Selected upstream resources need licence lineage; use direct SIGNOR4 first.",
+                           "terms_evidence":  [
+                                                  {
+                                                      "file":  "public_inputs/terms/omnipath_terms.html",
+                                                      "sha256":  "b3d2c99b8dd47fcc8f8443c81c687ceb2bc24a9f24d3aa1fd9c93e6f48a43831",
+                                                      "url":  "https://omnipathdb.org/"
+                                                  }
+                                              ],
+                           "training":  false
+                       },
+    "OpenTargets":  {
+                        "automatic_export":  false,
+                        "external_api":  false,
+                        "licence":  "CC0-1.0 platform data",
+                        "local_analysis":  true,
+                        "review_is_legal_guarantee":  false,
+                        "review_status":  "reviewed_for_declared_scope",
+                        "reviewed_on":  "2026-10-07",
+                        "scope":  "Platform-sourced data only. This does not relicense data downloaded directly from third parties. Direct drug-MVA associations are prohibited as discovery seeds.",
+                        "terms_evidence":  [
+                                               {
+                                                   "file":  "public_inputs/terms/opentargets_licence.txt",
+                                                   "sha256":  "1dc64d95df328593c85feea5742945678349daaf60eff0666497fa4822ebb11e",
+                                                   "url":  "https://platform-docs.opentargets.org/licence.md"
+                                               }
+                                           ],
+                        "training":  false
+                    },
+    "PhosphoSite":  {
+                        "automatic_export":  false,
+                        "external_api":  false,
+                        "licence":  "CC-BY-NC-SA-3.0 per inspected OmniPath resource metadata",
+                        "local_analysis":  false,
+                        "review_is_legal_guarantee":  false,
+                        "review_status":  "reviewed_for_declared_scope",
+                        "reviewed_on":  "2026-10-07",
+                        "scope":  "Commercial-context use not enabled; no downloading the data or bypassing licence filters.",
+                        "terms_evidence":  [
+                                               {
+                                                   "file":  "public_inputs/terms/omnipath_terms.html",
+                                                   "sha256":  "b3d2c99b8dd47fcc8f8443c81c687ceb2bc24a9f24d3aa1fd9c93e6f48a43831",
+                                                   "url":  "https://omnipathdb.org/"
+                                               }
+                                           ],
+                        "training":  false
+                    },
+    "Reactome":  {
+                     "automatic_export":  false,
+                     "external_api":  false,
+                     "licence":  "CC0-1.0 data",
+                     "local_analysis":  true,
+                     "review_is_legal_guarantee":  false,
+                     "review_status":  "reviewed_for_declared_scope",
+                     "reviewed_on":  "2026-10-07",
+                     "scope":  "Data only. Illustrations/code have different terms and are not imported.",
+                     "terms_evidence":  [
+                                            {
+                                                "file":  "public_inputs/terms/reactome_licence.html",
+                                                "sha256":  "bb8502e4bcf5c9c12206089b0ac379c20da8de9fc70f15b872ec301048946767",
+                                                "url":  "https://reactome.org/license"
+                                            }
+                                        ],
+                     "training":  false
+                 },
+    "SIGNOR4":  {
+                    "automatic_export":  false,
+                    "external_api":  false,
+                    "licence":  "CC-BY-4.0",
+                    "local_analysis":  true,
+                    "review_is_legal_guarantee":  false,
+                    "review_status":  "reviewed_for_declared_scope",
+                    "reviewed_on":  "2026-10-07",
+                    "scope":  "October2026 release only, current explicit data licence. Include source and changes. Not based on older historical NC permissions.",
+                    "terms_evidence":  [
+                                           {
+                                               "file":  "public_inputs/terms/signor_documentation.html",
+                                               "sha256":  "c025728d42a9f5e37ff578f2f8b587a6e0216692abccc9c144a88f7fef0c89ac",
+                                               "url":  "https://signor.uniroma2.it/documentation/"
+                                           }
+                                       ],
+                    "training":  false
+                },
+    "UniProt":  {
+                    "automatic_export":  false,
+                    "external_api":  false,
+                    "licence":  "CC-BY-4.0",
+                    "local_analysis":  true,
+                    "review_is_legal_guarantee":  false,
+                    "review_status":  "reviewed_for_declared_scope",
+                    "reviewed_on":  "2026-10-07",
+                    "scope":  "Protein reference annotations, attribution required. Clinical claim and third-party patent rights not inferred.",
+                    "terms_evidence":  [
+                                           {
+                                               "file":  "public_inputs/terms/uniprot_licence.json",
+                                               "sha256":  "5960c22bf17f22286504b927dbb3ca41713c571ed91a10fe7a88ddd964b416ce",
+                                               "url":  "https://rest.uniprot.org/help/license"
+                                           },
+                                           {
+                                               "file":  "public_inputs/terms/ebi_terms.html",
+                                               "sha256":  "f3c148e6b91501af2a516e24edf0be61c21e2ce1b4e9f40bd834c606f1f23ae9",
+                                               "url":  "https://www.ebi.ac.uk/about/terms-of-use/"
+                                           }
+                                       ],
+                    "training":  false
+                }
+}

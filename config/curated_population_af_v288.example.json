@@ -1,0 +1,14 @@
+{
+  "schema": "V288_CURATED_POPULATION_AF_1",
+  "assembly": "GRCh38",
+  "description": "OPTIONAL: local-only, source-checked population allele frequency table. Example contains NO patient variants. Populate only from properly licensed and verified public datasets; do not upload patient variant keys to external variant search services.",
+  "entries": [],
+  "entry_fields": [
+    "variant_key (GRCh38 chromosome:position:ref:alt; private local file only)",
+    "allele_frequency (0.0–1.0)",
+    "allele_number (number >0)",
+    "population",
+    "source_reference",
+    "source_checked=true"
+  ]
+}
