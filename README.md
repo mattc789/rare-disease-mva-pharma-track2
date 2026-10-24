@@ -6,6 +6,8 @@
 
 ## Track 2 submission: pitch video and scientific report
 
+> **Before installation:** Read [BEFORE_INSTALLATION.md](BEFORE_INSTALLATION.md) for the expected installation and analysis duration, observed OpenAI API usage costs, and time-dependent scientific results.
+
 - **[Watch the 3-minute scientific pitch on YouTube](https://youtu.be/_r-avURNnsY)** — English narration, unlisted and viewable by anyone with the link.
 - **[Video pitch information for the judging panel](submission/VIDEO_PITCH.md)** — title, proposed medicines, and review links.
 - **[Scientific report (PDF)](submission/examedix-technologies_track2_report.pdf)** and **[report in Markdown](submission/examedix-technologies_track2_report.md)** — detailed mechanism-based proposals, supporting literature, limitations, and validation plan.

@@ -25,6 +25,11 @@
       "sha256": "3a2d7a05935cf9a402a4823f15a664bb9adde702a27387750802b8e7e5158d92"
     },
     {
+      "path": "BEFORE_INSTALLATION.md",
+      "bytes": 1767,
+      "sha256": "19f6aa55cc5fb3a8706ceb32cc1ea0be8c691ec02d4b4beb755b20531c3d4b33"
+    },
+    {
       "path": "CONFIGURE_STORAGE_V31.ps1",
       "bytes": 5416,
       "sha256": "27fc45a029f273f67384754e8a67dd78f5a54e7bff0d082606aaf22a30306af5"
@@ -61,8 +66,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 36773,
-      "sha256": "5c63fbfd4d759ae762b174a4cd3b97c200b9464535ecd65853e0c79c7116a78d"
+      "bytes": 36980,
+      "sha256": "09fe1c27485ca2c7480a292d1309acc1e959391fa478436dc9d711dc2afc5fcf"
     },
     {
       "path": "REPRODUCE_CHALLENGE_V31.ps1",
@@ -96,8 +101,8 @@
     },
     {
       "path": "build_source_release_v31.py",
-      "bytes": 9525,
-      "sha256": "2447b77016c438a0dff9303c9e5ce3162c84af8f3998d64d8c9969e6ad5b4f20"
+      "bytes": 9551,
+      "sha256": "b0d03bb2e3e00a36ff21bbf1ab5f96ecf5a7b91af96ca8f6c41f351b1fcbb297"
     },
     {
       "path": "code/test_v2810_autonomous.py",

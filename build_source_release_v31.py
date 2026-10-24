@@ -13,7 +13,7 @@ OUT=ROOT/"release/RARE_DISEASE_MVA_PHARMA_V31_SOURCE_ONLY.zip"
 REPORT=ROOT/"release/V31_SOURCE_RELEASE_MANIFEST.json"
 
 FILES=[
- ".gitignore",".gitattributes","README.md","LICENSE",
+  ".gitignore",".gitattributes","README.md","BEFORE_INSTALLATION.md","LICENSE",
  "THIRD_PARTY_NOTICES_V31.md","requirements-v2810.txt",
  "reference_seed/signor/Oct2026_release.txt.gz","reference_seed/signor/ATTRIBUTION.md",
  "bootstrap_v28.py","bootstrap_regulatory_v283.py","bootstrap_current_public_v31.py","setup_v2810.py",
